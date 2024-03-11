@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wc-profits\n"
+"POT-Creation-Date: 2024-03-09 07:07+0330\n"
+"PO-Revision-Date: 2024-03-09 07:10+0330\n"
+"Last-Translator: \n"
+"Language-Team: https://tecpro.ir/\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-SourceCharset: CP1252\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: wc-profits.php\n"
+
+#: wc-profits.php:91
+msgid "WC Profits"
+msgstr "سود فروش"
+
+#: wc-profits.php:204
+msgid "There are "
+msgstr "در محدوده زمانی انتخاب شده "
+
+#: wc-profits.php:204
+msgid " orders found in this range which you haven't set any profits to them"
+msgstr " سفارش بدون تنظیم سود وجود دارد"
+
+#: wc-profits.php:251
+msgid "Total sells between selected days"
+msgstr "مجموع فروش در بازه زمانی مشخص شده"
+
+#: wc-profits.php:251
+msgid "sum of sales for"
+msgstr "مجموع فروش برای"
+
+#: wc-profits.php:251
+msgid "completed orders"
+msgstr "سفارش تکمیل شده"
+
+#: wc-profits.php:252
+msgid "sells without profit"
+msgstr "فروش بدون تنظیم  سود"
+
+#: wc-profits.php:253
+msgid "Total Profit"
+msgstr "مجموع سود دستی"
+
+#: wc-profits.php:253
+msgid "for"
+msgstr "برای"
+
+#: wc-profits.php:253
+msgid "completed orders with custom profit"
+msgstr "سفارش تکمیل شده با تنظیم دستی سود"
+
+#: wc-profits.php:271
+msgid "ltr"
+msgstr "rtl"
+
+#: wc-profits.php:274
+msgid "Woocommerce Custom Profits"
+msgstr "تنظیم دستی سود فروش برای ووکامرس"
+
+#: wc-profits.php:276
+msgid "From Date:"
+msgstr "از تاریخ:"
+
+#: wc-profits.php:277
+msgid "Until (before this date)"
+msgstr "تا تاریخ (قبل از این روز)"
+
+#: wc-profits.php:278
+msgid "Calculate"
+msgstr "محاسبه"
+
+#~ msgid "sold products"
+#~ msgstr "سفارش  فروخته شده"
+
+#~ msgid "sells"
+#~ msgstr "فروش"
