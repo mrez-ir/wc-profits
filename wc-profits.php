@@ -132,7 +132,7 @@ class wcp {
 			LEFT JOIN {$wpdb->prefix}postmeta AS usr ON (usr.post_id = p.ID AND usr.meta_key = '_customer_user')
 			LEFT JOIN {$wpdb->prefix}users AS useri ON (usr.meta_value = useri.ID)
 			WHERE p.post_type = 'shop_order'
-			AND p.post_status IN ('wc-processing','wc-completed','wc-ktk')
+			AND p.post_status IN ('wc-processing','wc-completed')
 			AND UNIX_TIMESTAMP(p.post_date) >= $date_a
 			AND UNIX_TIMESTAMP(p.post_date) < $date_b
 			AND (prf.meta_value IS NULL OR prf.meta_value = 0)
@@ -176,7 +176,7 @@ class wcp {
 			LEFT JOIN {$wpdb->prefix}postmeta as pm1 ON (p.ID = pm1.post_id AND pm1.meta_key = '_order_total')
 			LEFT JOIN {$wpdb->prefix}postmeta as prf ON (p.ID = prf.post_id AND prf.meta_key = 'Profit' AND prf.meta_value > 0)
 			WHERE p.post_type = 'shop_order'
-			AND p.post_status IN ('wc-processing','wc-completed','wc-ktk')
+			AND p.post_status IN ('wc-processing','wc-completed')
 			AND UNIX_TIMESTAMP(p.post_date) >= $date_a
 			AND UNIX_TIMESTAMP(p.post_date) < $date_b
 			AND pm1.meta_value IS NOT NULL
